@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--TAU-->
+    <script src="tau/tau-prolog.js"></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Experto | Prolog</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Experto</h1>
+      <p>
+        <span class="title">Experto</span> es un programa que te ayuda a saber la enfermedad que padeces respondiendo las preguntas que va generando.
+      </p>
+      <p>Para iniciar da click en el bot&oacute;n de abajo.</p>
+      <div class="justification-container">
+        <h4 id="diagnostic">El diagnostico es Sarampion</h4>
+        <div class="list-container">
+          <p>Se determin&oacute; este diagn&oacute;stico porque se encontraron los siguientes s&iacute;ntomas:</p>
+          <ul id="list"></ul>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button id="init" class="btn"><i class="fas fa-play-circle"></i>&nbsp;Iniciar</button>
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
